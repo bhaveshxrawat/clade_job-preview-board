@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    max-width: 1728px;
+    margin-inline: auto;
+    background-color: #fcfcfc;
+}
+
+h6 {
+    @apply text-sm leading-[1.5] text-[grey];
+}
+
+section {
+    container-type: inline-size;
+    container-name: section;
+}
+
+.preview-section {
+    padding-left: 6.25rem;
+    border-left: 1px solid #e7e7e7;
+}
+
+.preview-section:not(:last-child) {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+@container section (max-width: 700px) {
+    .preview-section {
+        padding-inline: 1.5rem;
+    }
+}
