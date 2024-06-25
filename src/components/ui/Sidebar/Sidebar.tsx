@@ -1,6 +1,6 @@
 const Sidebar = () => {
     return (
-        <aside className="basis-[421px]">
+        <aside className="basis-[421px] bg-[#FCFCFC]">
             <div className="p-6 pt-9 sticky top-0">
                 <div className="flex items-center gap-4 flex-wrap">
                     <button className="min-w-[fit-content] flex items-center justify-center p-[0.75rem_1.5rem] rounded-lg bg-[#FEF4F2] text-orange border-[0.8px] border-orange flex-1 gap-[0.625rem]">
@@ -152,7 +152,7 @@ const Sidebar = () => {
                             width={45}
                             height={45}
                             className="aspect-square rounded-full"
-                            src="/author.png"
+                            src="/author.jpg"
                             alt="Author"
                         />
                         <div className="flex flex-col gap-[2px] leading-[1.5]">

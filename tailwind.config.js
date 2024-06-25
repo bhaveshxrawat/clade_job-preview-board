@@ -12,7 +12,8 @@ export default {
       },
     },
     screens: {
-      'xl': { 'max': '1150px' }
+      'xl': { 'max': '1150px' },
+      'lg': { 'max': '800px' }
     }
   },
   plugins: [],
