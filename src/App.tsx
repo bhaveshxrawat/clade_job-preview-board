@@ -6,7 +6,7 @@ function App() {
     return (
         <>
             <Header />
-            <nav className="border border-[#e7e7e7] flex gap-[4.5rem] pl-[6.25rem] py-5 text-xl leading-[1.5] xl:pl-[1.5rem] lg:gap-4 lg:text-base lg:overflow-x-auto">
+            <nav className="border border-[#e7e7e7] flex gap-[4.5rem] pl-[6.25rem] py-5 text-xl leading-[1.5] xl:pl-[1.5rem] lg:gap-4 lg:text-sm lg:overflow-x-auto lg:pl-4">
                 <a
                     className=" text-orange relative after:absolute after:w-[4.0625rem] after:h-[2.13px] after:bg-orange after:left-1/2 after:-bottom-5  after:-translate-x-1/2"
                     href="#"
@@ -23,11 +23,11 @@ function App() {
                     Messages
                 </a>
             </nav>
-            <main className="grid grid-cols-[1fr_minmax(0,_421px)] lg:grid-cols-1">
+            <main className="grid grid-cols-[1fr_clamp(300px,_28vw,_421px)] lg:grid-cols-1">
                 <section className="border-r border-[#e7e7e7]">
                     <div className="preview-section pt-9 pb-[1.4375rem]">
                         <div className="flex items-center gap-3 lg:flex-wrap">
-                            <h2 className="text-[2.1875rem] font-bold leading-[1.5]">
+                            <h2 className="text-[2.1875rem] font-bold leading-[1.5] lg:text-2xl">
                                 Senior Product Designer
                             </h2>
                             <i className="w-1 aspect-square bg-[#D1D1D1] rounded-full"></i>
@@ -38,7 +38,7 @@ function App() {
                                 Open
                             </span>
                         </div>
-                        <div className="flex gap-4 items-center text-xl leading-[1.5] text-[#5D5D5D] mt-6">
+                        <div className="flex gap-4 items-center text-xl lg:text-sm leading-[1.5] text-[#5D5D5D] mt-6">
                             <p className="flex items-center gap-2">
                                 <svg
                                     width="24"

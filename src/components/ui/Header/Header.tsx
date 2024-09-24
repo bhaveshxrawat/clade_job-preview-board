@@ -1,8 +1,8 @@
 const Header = () => {
     return (
-        <header className="flex justify-between items-center pl-10 pr-6 pt-[1.0625rem] pb-[1.125rem] shadow-[0px_4px_4px_0px_#D9D9D91A] xl:px-[1.5rem]">
+        <header className="flex justify-between items-center pl-10 pr-6 pt-[1.0625rem] pb-[1.125rem] shadow-[0px_4px_4px_0px_#D9D9D91A] lg:px-[1rem]">
             <a
-                className="text-orange font-bold text-xl leading-[0.74] flex items-center justify-center bg-[#E7E7E7] w-[6.25rem] h-[3.8125rem]"
+                className="text-orange font-bold text-xl lg:text-base lg:font-semibold leading-[0.74] flex items-center justify-center bg-[#E7E7E7] w-[6.25rem] h-[3.8125rem] lg:w-20 lg:h-8"
                 href="#"
             >
                 Logo
